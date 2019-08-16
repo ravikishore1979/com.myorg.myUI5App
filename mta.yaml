@@ -4,15 +4,15 @@ description: Enter description here
 version: 0.0.1
 modules:
  - name: myUI5App
-   type: nodejs
-   path: dist
+   type: html5
+   path: .
    parameters:
       disk-quota: 512M
       memory: 512M
    requires:
     - name: dest_myUI5App
    build-parameters:
-      builder: ui5
+      builder: grunt
       build-result: dist
 resources:
  - name: dest_myUI5App
