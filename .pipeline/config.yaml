@@ -2,6 +2,7 @@ general:
   buildTool: 'npm'
 steps:
   mtaBuild:
+    applicationName: 'myUI5App'
     buildTarget: 'CF'
   cloudFoundryDeploy:
     deployTool: 'mtaDeployPlugin'
