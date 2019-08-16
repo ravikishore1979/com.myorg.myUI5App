@@ -1,0 +1,19 @@
+_schema-version: 3.0.0
+ID: myUI5App
+description: Enter description here
+version: 0.0.1
+modules:
+- name: myUI5App
+  type: javascript.nodejs
+  path: myUI5App
+  requires:
+  - name: dest_myUI5App
+  parameters:
+    disk-quota: 512M
+    memory: 512M
+resources:
+- name: dest_myUI5App
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: destination
+    service-plan: lite

@@ -1,5 +1,7 @@
-node_modules/
-.idea/
-.mta/
+node_modules
+.idea
+.mta
 *.mtar
 package-lock.json
+dist
+mta_archives
