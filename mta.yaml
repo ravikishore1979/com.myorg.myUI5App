@@ -5,7 +5,7 @@ version: 0.0.1
 modules:
  - name: myUI5App
    type: nodejs
-   path: .
+   path: dist
    parameters:
       disk-quota: 512M
       memory: 512M
